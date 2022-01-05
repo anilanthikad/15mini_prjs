@@ -6,5 +6,5 @@ print('Welcome to Google search tool!')
 # Taking query
 query = input('What would you like to search? : ')
 
-for i in search(query, start=0, stop=5):
+for i in search(query, start=0, stop=10):
     print(i)
